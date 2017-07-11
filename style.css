@@ -1,6 +1,6 @@
 /*global styles*/
 *   {
-border: dashed 3px;
+font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 /*selector styles*/
 
 header {
-  text-align: center;
+  display: inline-block;
   width: 100%;
   background: #097054;
   float: right;
@@ -23,6 +23,7 @@ header {
 
 header div nav ul li {
   display: inline;
+  text-align: center;
 }
 
 h1 {
@@ -63,39 +64,6 @@ main {
   width: 100%;
   margin-top: 30px;
 }
-
-.hero-slider{
-  margin-bottom: 2em;
-}
-
-.starter-hero {
-  position: relative;
-  width: 100%;
-}
-
-.starter-hero img {
-  width: 100%;
-}
-
-/*.hero-label {
-  position: absolute;
-  top: 2em;
-  left: 1.5em;
-  width: 40%;
-  border-radius: .25em;
-  padding: .75em;
-  background: #666;
-  opacity: .75;
-  color: white
-}
-
-.hero-label h3 {
-  font-size: 1em;
-}
-
-.hero-label p {
-  font-size: .75em;
-}*/
 
 .projects {
   width: 100%;
