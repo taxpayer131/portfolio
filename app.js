@@ -7,6 +7,7 @@ function Project (name, tools, url, gitHub, about){
   this.gitHub = gitHub;
   this.about = about;
 }
+<<<<<<< HEAD
 
 //event listener
 $(function() {
@@ -17,3 +18,5 @@ $('.nav-items > a').on('click', function() {
   $('.tab-content').hide();
   $('#' + $(this).data('tab'));
 });
+=======
+>>>>>>> 834250fe863414de713382e2fda853305d555263

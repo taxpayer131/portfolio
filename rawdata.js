@@ -8,3 +8,8 @@ var rawData = [{
   this.about = rawData.about;
 }
 ];
+<<<<<<< HEAD
+=======
+
+Projects.prototype.toHtml
+>>>>>>> 834250fe863414de713382e2fda853305d555263

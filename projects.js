@@ -2,6 +2,7 @@
 
 var projects = [];
 
+<<<<<<< HEAD
 function Projects (rawDataObj) {
   this.name = rawDataObj.name;
   this.name = rawData.name;
@@ -23,4 +24,8 @@ rawData.forEach(function(projectObject) {
 projects.forEach(function(project) {
   $('.project').append(project.toHtml());
 });
+=======
+function Projects = {
+
+>>>>>>> 834250fe863414de713382e2fda853305d555263
 }

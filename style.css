@@ -28,7 +28,11 @@ header div nav ul li {
 
 h1 {
   font-family: 'Roboto Slab', serif;
+<<<<<<< HEAD
   /*font-style: */
+=======
+  font-style: bold;
+>>>>>>> 834250fe863414de713382e2fda853305d555263
   float: left;
   font-size: 1.5em;
   margin: .5em .5em;
@@ -107,6 +111,7 @@ main {
   margin-left: 25%;
 }
 
+<<<<<<< HEAD
 .skills-main{
   width: 100%;
   /*display: none;*/
@@ -114,6 +119,11 @@ main {
 
 .skills {
   display:block;
+=======
+.main-skills{
+  width: 100%;
+  display: none;
+>>>>>>> 834250fe863414de713382e2fda853305d555263
 }
 
 .main-about {
