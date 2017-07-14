@@ -6,8 +6,6 @@ function Project (name, tools, url, gitHub, about){
   this.url = url;
   this.gitHub = gitHub;
   this.about = about;
-}
-<<<<<<< HEAD
 
 //event listener
 $(function() {

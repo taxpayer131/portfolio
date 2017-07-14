@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <title>Chris Stefan, Web Developer</title>
+//Template
+    <script id="address-template" type="text/x-handlebars-template">
+      <article data-category="{{ data }}" data-name="{{ Name }}">
+        <header>
+          <h1>{{ Name }}</h1>
+          <div class="byline">
+            By <address><a href="{{ link }}">{{ AuthorName }}</a></address>
+            published <time pubdate datetime="2000-01-01">{{ PublishTime }}</time>
+          </div>
+        </header>
+
+        <section class="projects">
+          {{{ bodyContent }}}
+        </section>
+        <a href="#" class="read-on">Read on &rarr;</a>
+      </article>
+    </script>
   </head>
 
   <body>
@@ -93,6 +110,8 @@
       <!-- <img src="http://placehold.it/50x50" alt="linkedin">
       <img src="http://placehold.it/50x50" alt="github"> -->
     </footer>
-    <!-- <script type="text/javascript" src="app.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
