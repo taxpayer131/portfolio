@@ -79,14 +79,6 @@ main {
   display: inline-block;
 }
 
-.projects ul li:nth-child(1){
-  margin-right: 4%;
-}
-
-.projects ul li:nth-child(3){
-  display: none;
-}
-
 .projects ul li img {
   width: 100%
 }
